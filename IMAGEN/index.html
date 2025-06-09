@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metodologia: BEM y Camelcase</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
 </head>
-
 <body>
     <main class="ContenedorGeneral">
         <header class="EncabezadodePagina">
-                <h1>Guia informativa: Bem y Camelcase</h1>
-                <p>Explora las metodologias mas comunes para nombrar clases y variables en desarrollo</p>
+            <h1>Guia informativa: Bem y Camelcase</h1>
+            <p>Explora las metodologias mas comunes para nombrar clases y variables en desarrollo</p>
         </header>
             <section class="BEM">
                 <h2>¿Que es BEM?</h2>
                 <P>BEM es una medodologia para organizar y nombrar clases en HMTL y CSS, facilitando la creación de código más legible, reutilizable y escalable, Divide los componentes de la interfaz de usuario en tres elementos: Bloques, Elementos y Modificadores.</P>
-                    <img src="/IMAGEN/BEM.jpg" alt="">
+            <section class="imagen">
+                <img src="/IMAGEN/BEM.jpg" alt="">
+            </section>    
+                
                 <h3>Ventajas de usar BEM:</h3>
                 <ol>
                     <li>Mejora la legibilidad del código</li>
@@ -28,7 +31,6 @@
                     <li><code>.button__icon</code></li>
                     <li><code>.button--disabled</code></li>
                 </ul>
-                
             </section>
             <section class="Camelcase">
                 <h2>¿Que es camelcase?</h2>
@@ -41,7 +43,6 @@
                     <li>Funciones en lenguajes de programación</li>
                     <li>Nombrar propiedades en objetos</li>
                 </ol>
-
                 <h3>Ejemplos de código camelCase:</h3>
                 <ul>
                     <li><code>userName</code></li>
@@ -76,6 +77,19 @@
                 <p><strong>¿Cuándo usar cada uno?</strong></p>
                 <p>Usa BEM para estructurar tus clases CSS y camelCase para definir variables y funciones.</p>
 
+            </section>
+            <section>
+                <h2>Ejemplo práctico con BEM</h2>
+                <div class="card-container">
+                    <div class="product">
+                    <div class="product__title">Producto A</div>
+                    <div class="product__price">$10</div>
+                    </div>
+                    <div class="product product--highlight">
+                    <div class="product__title">Producto Destacado</div>
+                    <div class="product__price">$20</div>
+                    </div>
+                </div>
             </section>
     </main>
 </body>

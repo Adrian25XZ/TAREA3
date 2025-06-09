@@ -1,21 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box ;
 }
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+body {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.9;
     color: #333;
-    background-color: liner-grandient(135seg, #667e 0%, #764ba2 100%);
+    background: linear-gradient(70deg, #ffffff 0%, #ffffff 100%);
     min-height: 100vh;
-    padding: 20px;
+    padding: 40px;
 }
-.ContenedorGeneral{
-    max-width: 1200px;
+.ContenedorGeneral {
+    max-width: 1150px;
     margin: 0 auto;
-    background-color: white;
-    border-radius: 15px;
+    background: white;
+    border-radius: 0%;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     overflow: hidden;
 }
