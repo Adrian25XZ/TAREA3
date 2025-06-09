@@ -29,6 +29,7 @@ body {
     padding: 40px;
 }
 .ContenedorGeneral {
+    padding: 1rem;
     max-width: 1150px;
     margin: 0 auto;
     background: white;
