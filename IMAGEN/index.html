@@ -14,11 +14,11 @@
         </header>
             <section class="BEM">
                 <h2>¿Que es BEM?</h2>
+            <img class="imagen-class" src="/IMAGEN/BEM.jpg" alt="imagen BEM">
                 <P>BEM es una medodologia para organizar y nombrar clases en HMTL y CSS, facilitando la creación de código más legible, reutilizable y escalable, Divide los componentes de la interfaz de usuario en tres elementos: Bloques, Elementos y Modificadores.</P>
-            <section class="imagen">
-                <img src="/IMAGEN/BEM.jpg" alt="">
-            </section>    
-                
+            </section>
+   
+            <section>
                 <h3>Ventajas de usar BEM:</h3>
                 <ol>
                     <li>Mejora la legibilidad del código</li>
@@ -34,7 +34,7 @@
             </section>
             <section class="Camelcase">
                 <h2>¿Que es camelcase?</h2>
-                <img src="/IMAGEN/CAMELCASE.png" alt="">
+                <img class="imagen-class" src="/IMAGEN/CAMELCASE.png" alt="Image Camelcase">
                 <p>es un tipo de escritura en el que cada palabra de una palabra compuesta se escribe con mayúscula, excepto la primera. Este estilo se utiliza principalmente en programación y desarrollo web para variables, funciones y otros elementos.</p>
                 
                 <h3>¿Dónde se usa camelCase?</h3>
@@ -76,20 +76,33 @@
                 </table>
                 <p><strong>¿Cuándo usar cada uno?</strong></p>
                 <p>Usa BEM para estructurar tus clases CSS y camelCase para definir variables y funciones.</p>
-
             </section>
             <section>
                 <h2>Ejemplo práctico con BEM</h2>
-                <div class="card-container">
+                <div class="product-container">
                     <div class="product">
                     <div class="product__title">Producto A</div>
+                    <div class="product__description">Descripción breve del producto</div>
                     <div class="product__price">$10</div>
                     </div>
                     <div class="product product--highlight">
                     <div class="product__title">Producto Destacado</div>
+                    <div class="product__description">Este producto es popular.</div>
                     <div class="product__price">$20</div>
                     </div>
                 </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                    <li class="nav__item nav__item--active"><a href="#" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Metodología</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--disabled">Contacto</a></li>
+                    </ul>
+                </nav
+            </section>
+            <section class="modal modal--visible modal--small">
+                    <div class="modal__header">Aviso Importante</div>
+                    <div class="modal__content">Este sitio utiliza metodologías modernas para escribir código limpio.</div>
+                    <div class="modal__footer"><button class="modal__button">Aceptar</button></div>
             </section>
     </main>
 </body>
